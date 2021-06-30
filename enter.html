@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Haiku</title>
+        <style>
+            body{
+		        background-image: url('haiku.jpg');
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                width: 75%;
+                margin: auto;
+	        }
+            .head{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-align: center;
+                width: auto;
+                margin: 10px auto;
+                background-color: rgba(255, 242, 223,0.6); 
+                font-weight: bolder; 
+                font-size: 75px;
+		        border: 4px solid lightcoral;
+		        border-radius: 20px;
+	        }
+            input{
+                font-weight: lighter;
+                font-family: monospace;
+                font-size: 20px;
+                color: black;
+                margin: 10px;
+                border: 3px medium green;
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border-radius: 10px;
+            }
+
+            textarea{
+                font-weight: lighter;
+                font-family: monospace;
+                color: black;
+                margin: 10px;
+                border: 3px medium green;
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+            .form{
+                font-size: 30px;
+                margin: 10px auto;
+                margin-top: 10px;
+                width: 20em;
+                border: 3px solid lightcoral;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "head"><p>Enter Haiku</p></div>
+        <div class = "form">
+                <form action = "enter.php"  method="POST">
+                    <label for="uname">User Name : </label> <br>
+                    <input type="text" name="uname" placeholder="Name" required><br>
+                    <label for="haiku">Enter Input text:</label><br>
+                    <textarea name="haiku" placeholder="Text Goes here" required></textarea>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+        </div>
+    </body>
+</html>
