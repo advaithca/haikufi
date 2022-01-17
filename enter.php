@@ -65,7 +65,7 @@ else{
     }
     else {
         echo "<h1>Save Successfull!!!</h1>";
-        echo "<br><h4>"."<a href='/haiku/index.html'> Home </a>"."</h4><br>";
+        echo "<br><h4>"."<a href='index.html'> Home </a>"."</h4><br>";
     }
 }
 ?>
