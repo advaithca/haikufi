@@ -46,8 +46,8 @@
 			One doesn't need to register to get their haiku saved, just provide your username.<br>
 			<br>
 			<ul class="text">
-			 <li>Click <a href="/haiku/enter.html">Here</a> to enter a potential Haiku.<br></li>	
-			 <li>Click <a href="/haiku/view.php">Here</a> to view Haikus.<br></li>    
+			 <li>Click <a href="enter.html">Here</a> to enter a potential Haiku.<br></li>	
+			 <li>Click <a href="view.php">Here</a> to view Haikus.<br></li>    
 			</ul>
 		</p>
 	</div>
