@@ -39,7 +39,7 @@ if(str_word_count($haiku,0) != 17){
         $err = "More words than what can be considered a Haiku.";
     }
     echo "<h1>".$err."</h1>";
-    echo "<h4><a href = 'index.html'>Go Back</a></h4>";
+    echo "<h4><a href = 'index.php'>Go Back</a></h4>";
 
 }
 
@@ -61,11 +61,11 @@ else{
 
     if(!$s){
         echo "<h1>Save Failed!! Retry</h1>";
-        echo "<br><h4>"."<a href='/haiku/enter.html'> Go Back </a>"."</h4><br>";
+        echo "<br><h4>"."<a href='enter.html'> Go Back </a>"."</h4><br>";
     }
     else {
         echo "<h1>Save Successfull!!!</h1>";
-        echo "<br><h4>"."<a href='index.html'> Home </a>"."</h4><br>";
+        echo "<br><h4>"."<a href='index.php'> Home </a>"."</h4><br>";
     }
 }
 ?>
